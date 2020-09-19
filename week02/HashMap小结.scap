@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="5DE8CAC9-E0A2-4316-B40F-BC932441F6BF" Version="1.1">
+   <Notes>
+      <Note Width="61.2793" FontSize="12" ID="0" Position="492.2,325.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>0.808835 0.872419 0.801343</Fill>
+            <Border Weight="1">0.399100 0.583322 0.354864</Border>
+         </Appearance>
+         <String>HashMap
+JDK1.8</String>
+         <ConnectedNoteIDs>1-5</ConnectedNoteIDs>
+         <PointsToNoteIDs>1-5</PointsToNoteIDs>
+      </Note>
+      <Note Width="44.9219" FontSize="12" ID="1" Position="621.1,285.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>0.844068 0.869596 0.923064</Fill>
+            <Border Weight="1">0.485893 0.568933 0.756207</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,3</FormatRange>
+         </Formatting>
+         <String>初始化</String>
+         <ConnectedNoteIDs>0, 14</ConnectedNoteIDs>
+      </Note>
+      <Note Width="57.4219" FontSize="12" ID="2" Position="605.5,412.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>0.844068 0.869596 0.923064</Fill>
+            <Border Weight="1">0.485893 0.568933 0.756207</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,4</FormatRange>
+         </Formatting>
+         <String>插入元素</String>
+         <ConnectedNoteIDs>0, 16-17</ConnectedNoteIDs>
+         <PointsToNoteIDs>16-17</PointsToNoteIDs>
+      </Note>
+      <Note Width="57.4219" FontSize="12" ID="3" Position="398.4,432.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>0.844068 0.869596 0.923064</Fill>
+            <Border Weight="1">0.485893 0.568933 0.756207</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,4</FormatRange>
+         </Formatting>
+         <String>删除元素</String>
+         <ConnectedNoteIDs>0, 27-28</ConnectedNoteIDs>
+         <PointsToNoteIDs>27-28</PointsToNoteIDs>
+      </Note>
+      <Note Width="57.4219" FontSize="12" ID="4" Position="321.9,239.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>0.844068 0.869596 0.923064</Fill>
+            <Border Weight="1">0.485893 0.568933 0.756207</Border>
+         </Appearance>
+         <String>查找元素</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      </Note>
+      <Note Width="119.922" FontSize="12" ID="5" Position="573.4,97.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>0.912963 0.894118 0.644541</Fill>
+            <Border Weight="1">0.769436 0.762219 0.390143</Border>
+         </Appearance>
+         <String>元素的存储基本单元</String>
+         <ConnectedNoteIDs>0, 6-7</ConnectedNoteIDs>
+         <PointsToNoteIDs>6-7</PointsToNoteIDs>
+      </Note>
+      <Note Width="75.6836" FontSize="12" ID="6" Position="694.5,55.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>字段名:table</String>
+         <ConnectedNoteIDs>5</ConnectedNoteIDs>
+      </Note>
+      <Note Width="110.474" FontSize="12" ID="7" Position="727.3,97.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>数据类型：Node[ ]</String>
+         <ConnectedNoteIDs>5, 8</ConnectedNoteIDs>
+         <PointsToNoteIDs>8</PointsToNoteIDs>
+      </Note>
+      <Note Width="69.9219" FontSize="12" ID="8" Position="853.1,108.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>基本结构：</String>
+         <ConnectedNoteIDs>7</ConnectedNoteIDs>
+      </Note>
+      <Note Width="106.775" FontSize="12" ID="10" Position="939.1,93.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,10</FormatRange>
+            <FormatRange Bold="Yes">10,4</FormatRange>
+            <FormatRange Bold="Yes">16,6</FormatRange>
+            <FormatRange Bold="Yes">24,3</FormatRange>
+            <FormatRange Bold="Yes">31,5</FormatRange>
+            <FormatRange Bold="Yes" Italic="Yes">42,1</FormatRange>
+            <FormatRange Bold="Yes" Italic="Yes">46,2</FormatRange>
+            <FormatRange Bold="Yes">48,4</FormatRange>
+         </Formatting>
+         <String>final int hash;
+final K key;
+V value;
+Node&lt;K,V> next;</String>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="12" Position="1079.7,145.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>next指向下一个节点，以解决hash值冲突问题</String>
+      </Note>
+      <Note Width="218.75" FontSize="12" ID="13" Position="45.3,38.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>0.844068 0.869596 0.923064</Fill>
+            <Border Weight="1">0.485893 0.568933 0.756207</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">4,10</FormatRange>
+            <FormatRange Bold="Yes">54,22</FormatRange>
+         </Formatting>
+         <String>负载因子loadFactor：默认0.75
+初始容量initialCapacity：最大容量为2的30次方
+threshold:真正的table容量大小</String>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="14" Position="650.0,204.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>1、初始容量大于最大值，则为最大值
+2、初始化初始容量</String>
+         <ConnectedNoteIDs>1, 15</ConnectedNoteIDs>
+         <PointsToNoteIDs>1, 15</PointsToNoteIDs>
+      </Note>
+      <Note Width="82.4219" FontSize="12" ID="15" Position="826.6,215.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">8,16</FormatRange>
+         </Formatting>
+         <String>初始化容量：？？初始化时，并没有实例化table</String>
+         <ConnectedNoteIDs>14</ConnectedNoteIDs>
+      </Note>
+      <Note Width="59.6924" FontSize="12" ID="16" Position="678.9,385.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>table为空</String>
+         <ConnectedNoteIDs>2, 18</ConnectedNoteIDs>
+         <PointsToNoteIDs>18</PointsToNoteIDs>
+      </Note>
+      <Note Width="72.1924" FontSize="12" ID="17" Position="679.7,482.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>table不为空</String>
+         <ConnectedNoteIDs>2, 20-21</ConnectedNoteIDs>
+         <PointsToNoteIDs>20-21</PointsToNoteIDs>
+      </Note>
+      <Note Width="74.3652" FontSize="12" ID="18" Position="741.4,340.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>调用resize()</String>
+         <ConnectedNoteIDs>16, 19</ConnectedNoteIDs>
+      </Note>
+      <Note Width="180.469" FontSize="12" ID="19" Position="847.7,299.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">29,2</FormatRange>
+            <FormatRange Bold="Yes">51,4</FormatRange>
+         </Formatting>
+         <String>1、如果实例化对象时，初始容量为空：则table初始容量为16
+2、不为空时：则将容量值转化为最接近的2的倍数的值。比如传值5，table容量则为8
+</String>
+         <ConnectedNoteIDs>18</ConnectedNoteIDs>
+         <PointsToNoteIDs>18</PointsToNoteIDs>
+      </Note>
+      <Note Width="86.9873" FontSize="12" ID="20" Position="757.8,452.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>hashcode冲突</String>
+         <ConnectedNoteIDs>17, 22-24</ConnectedNoteIDs>
+         <PointsToNoteIDs>22-24</PointsToNoteIDs>
+      </Note>
+      <Note Width="99.4873" FontSize="12" ID="21" Position="685.2,573.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>hashcode不冲突</String>
+         <ConnectedNoteIDs>17</ConnectedNoteIDs>
+      </Note>
+      <Note Width="152.014" FontSize="12" ID="22" Position="862.5,405.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>key相同，则返回原来的值</String>
+         <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="23" Position="932.0,449.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>key不同，原来的元素为树的根节点，则向树添加元素</String>
+         <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      </Note>
+      <Note Width="180.469" FontSize="12" ID="24" Position="827.3,514.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes" Italic="Yes">10,17</FormatRange>
+         </Formatting>
+         <String>相同元素是否接近8（TREEIFY_THRESHOLD）</String>
+         <ConnectedNoteIDs>20, 25-26</ConnectedNoteIDs>
+         <PointsToNoteIDs>25-26</PointsToNoteIDs>
+      </Note>
+      <Note Width="144.922" FontSize="12" ID="25" Position="1028.1,498.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>没有超过，继续往后添加</String>
+         <ConnectedNoteIDs>24</ConnectedNoteIDs>
+      </Note>
+      <Note Width="82.4219" FontSize="12" ID="26" Position="989.1,575.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>如果刚好到达7，则提前新建树</String>
+         <ConnectedNoteIDs>24</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="27" Position="205.5,407.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>key值是为空，单独使用“==”判断</String>
+         <ConnectedNoteIDs>3</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="28" Position="218.0,480.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>不为空，循环遍历迭代器，通过迭代器的remove方法</String>
+         <ConnectedNoteIDs>3</ConnectedNoteIDs>
+      </Note>
+   </Notes>
+   <BackgroundShapes>
+      <Shape Width="128.65" Faded="No" Height="90.625" Sticky="No" ID="9" Position="927.3,78.1" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+      </Shape>
+      <Shape Width="168.75" Faded="No" Height="59.375" Sticky="No" ID="11" Position="1071.1,132.8" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+      </Shape>
+   </BackgroundShapes>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="6611C577-B00F-4A28-953C-C17257ACF711" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="DEE28FD0-0283-4969-96F4-9815A597C7E2" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="0B3EC97A-4868-4962-9E60-2F1989DE2978" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="3CDAB25E-53C6-443F-AF03-CC371BBF6D78" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="E8F95A8C-DF26-4F13-A944-8FC5D5F477D2" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="1BB5E77E-87DA-4ACA-ACA6-688551B707D5" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="2CA286D1-37DF-4B4B-8BA3-B3C1E56AA49E" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="iso-a4" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>
